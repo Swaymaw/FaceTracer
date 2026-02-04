@@ -1,0 +1,14 @@
+[project]
+name = "facetracer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "faiss-cpu>=1.13.2",
+    "numpy>=2.4.2",
+    "psycopg2-binary>=2.9.11",
+    "robyn>=0.76.0",
+    "sqlalchemy>=2.0.46",
+    "sqlalchemy-utils>=0.42.1",
+]
